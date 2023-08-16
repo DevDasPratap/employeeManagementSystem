@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 //local imports
-const connectDb = require('./db.js')
+const connectDb = require('./config/db')
 const employeeRoutes = require('./controllers/employee.controller')
 const { errorHandler } = require('./middlewares')
 
